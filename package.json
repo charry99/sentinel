@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@anchor-lang/core": "^1.0.0",
+    "@pm-amm/sdk": "^0.2.0",
+    "@solana/spl-token": "^0.4.0",
+    "@solana/web3.js": "^1.98.0"
+  },
+  "description": "Sentinel — autonomous prediction-market agent on Solana devnet via pm-AMM. Signal → market → verifiable resolution → public track record.",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "main": "dist/src/index.js",
+  "name": "sentinel",
+  "private": true,
+  "scripts": {
+    "agent": "npm run build && node dist/src/agent.js",
+    "agent:once": "npm run build && node dist/src/agent.js --once",
+    "build": "tsc -p tsconfig.json",
+    "dashboard": "npm run build && node dist/src/dashboard.js",
+    "demo": "npm run build && node dist/src/demo.js",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "test:integration": "npm run build && SENTINEL_INTEGRATION=1 node --test dist/test/integration.test.js"
+  },
+  "version": "0.1.0"
+}

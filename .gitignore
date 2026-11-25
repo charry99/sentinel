@@ -1,0 +1,21 @@
+# Dependencies / build output
+node_modules/
+dist/
+
+# NEVER commit keypairs. The agent keypair is devnet-only and lives outside
+# the repo (default: ~/.config/sentinel/devnet-wallet.json, 0600).
+# `npm run demo` generates ./devnet-wallet.json only if no keypair is found;
+# that file is gitignored too.
+devnet-wallet.json
+*.json.key
+**/*.keypair.json
+.env
+.env.local
+
+# Track-record data is public by design, but local run artefacts stay out
+# until the dashboard publishes them deliberately.
+data/*.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db

@@ -1,0 +1,246 @@
+{
+  "generatedAt": "2026-11-23T22:25:12.672Z",
+  "network": "devnet",
+  "programId": "GV1FMGHRYBjQLaghE5fnGuYCuCcpdt3GD5xEX3TwN16y",
+  "usdcMint": "3WQ8hCqTNwjrh8WzE2XyoZoUrd1miPcwWfMkmFPUMEWZ",
+  "referenceApp": "https://pm-amm-devnet.vercel.app",
+  "stats": {
+    "marketsCreated": 4,
+    "resolved": 1,
+    "live": 0,
+    "endedAwaitingResolution": 3,
+    "decisionsLogged": 8,
+    "decisionsCreated": 1,
+    "decisionsSkipped": 7,
+    "decisionsErrored": 0,
+    "snapshotsLogged": 3
+  },
+  "markets": [
+    {
+      "name": "BTC above $68k at 2026-11-13 15:35 UTC? (CoinGecko)",
+      "asset": "BTC",
+      "direction": "above",
+      "thresholdUsd": 68000,
+      "resolveAt": "2026-11-13T15:35:00.000Z",
+      "source": "CoinGecko BTC/USD",
+      "sourceUrl": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+      "tieRule": "Exactly equal to the threshold resolves NO.",
+      "marketId": 133405243500474,
+      "marketPda": "BG7zUsKyt11EoKyKogeh9Tntwo8TXD7UYsa2R9Swu1ew",
+      "marketAppUrl": "https://pm-amm-devnet.vercel.app/market/133405243500474",
+      "explorerAccount": "https://solscan.io/account/BG7zUsKyt11EoKyKogeh9Tntwo8TXD7UYsa2R9Swu1ew?cluster=devnet",
+      "createTxUrl": "https://solscan.io/tx/GefUfvQwHHPJWF5MoSCosrvAW9qGSSgkfKXNgbtnB3MM6fWPg1zCha12U7r7yHrKuRCT2pUm5b4GzNjdUzz3JQs?cluster=devnet",
+      "swapTxUrl": "https://solscan.io/tx/3h51b4AWBKmMTCV1TczBiTcgoa7R2LG6md4fFp9BdxCWT1yHMfkgVjhQdipd6zvQyACa3tTAByUzjyqKwkKZgKeD?cluster=devnet",
+      "yesBought": "9.510989",
+      "yesPricePctAfterBuy": 53.04,
+      "creator": "B6mbz82NKSk6NEr1AFmjrGs46pS1SeTCx3JNDHxQb7b5",
+      "createdAt": "2026-11-13T15:21:16.143Z",
+      "displayStatus": "RESOLVED",
+      "resolution": {
+        "outcome": "yes",
+        "fetchedValue": 68389,
+        "fetchedAt": "2026-11-13T15:35:18.664Z",
+        "source": "CoinGecko BTC/USD",
+        "resolveTxUrl": "https://solscan.io/tx/EaV34VDffk8XAqTJBooTf74rmAXqP6GEsD25vxKTGYwVZUfCga6piRhoZHwLth7wW5DasxJmYFkEmh2Y9tRgpVY?cluster=devnet",
+        "settleTxs": [
+          {
+            "label": "Accrue interest",
+            "url": "https://solscan.io/tx/5ooyNBVpcZ8ppPecweeEJVrVmCf4G8KXhLBuXrvcgSvknF49gf2Jqqj2YBWso6hwVrnp9bKDM6w7gxWCT3zrFdMB?cluster=devnet"
+          },
+          {
+            "label": "Claim LP residuals",
+            "url": "https://solscan.io/tx/AJC7X786Cmapf2xuym563v8ZH5j82XEtukmepe3UuCN8YamjSv11pMH3XPgrLA5GFuZCKqwWpMBuG1HjFqGCjz9?cluster=devnet"
+          },
+          {
+            "label": "Claim winnings",
+            "url": "https://solscan.io/tx/3ynC4uKkW4As1wvQBR7zcbYP4UHsWKEyqutPZqTKxWQwD973NvfBSr6CtDUfGgEPMo8xM5L36yq1A4FVNn2AUnn?cluster=devnet"
+          }
+        ],
+        "spentUsdc": 55,
+        "recoveredUsdc": 54.949998,
+        "netUsdc": -0.050002,
+        "resolvedAt": "2026-11-13T15:35:57.790Z",
+        "proofFile": "resolution-proof-133405243500474.json",
+        "proofRawResponse": {
+          "bitcoin": {
+            "usd": 68389,
+            "usd_24h_change": -4.116066321048581
+          }
+        },
+        "parsed": true,
+        "raw": null
+      },
+      "resolutionNote": null,
+      "snapshots": [],
+      "latestYesPricePct": 53.04
+    },
+    {
+      "name": "BTC above $70k at 2026-11-15 12:00 UTC? (CoinGecko)",
+      "asset": "BTC",
+      "direction": "above",
+      "thresholdUsd": 70000,
+      "resolveAt": "2026-11-15T12:00:00.000Z",
+      "source": "CoinGecko BTC/USD",
+      "sourceUrl": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+      "tieRule": "Exactly equal to the threshold resolves NO.",
+      "marketId": 154474886100287,
+      "marketPda": "4QW2qaFBfGpH345gjeQTzmRzojgCXTr4MagjV8ScShLW",
+      "marketAppUrl": "https://pm-amm-devnet.vercel.app/market/154474886100287",
+      "explorerAccount": "https://solscan.io/account/4QW2qaFBfGpH345gjeQTzmRzojgCXTr4MagjV8ScShLW?cluster=devnet",
+      "createTxUrl": "https://solscan.io/tx/2dH7nNkkyXitpEpDyWatcYS1uT1mmLQPzv5qiLVKWC5KJdziekVJxTcERcfWPwHXFnYoExCkKLnQymUFtMXbrEPt?cluster=devnet",
+      "swapTxUrl": null,
+      "yesBought": null,
+      "yesPricePctAfterBuy": 50,
+      "creator": "B6mbz82NKSk6NEr1AFmjrGs46pS1SeTCx3JNDHxQb7b5",
+      "createdAt": "2026-11-13T15:10:47.093Z",
+      "displayStatus": "ENDED",
+      "resolution": null,
+      "resolutionNote": "Pending — resolves after 2026-11-15T12:00:00.000Z via send.resolveMarket (creator authority, M3).",
+      "snapshots": [
+        {
+          "at": "2026-11-13T15:10:47.093Z",
+          "yesPricePct": 50
+        }
+      ],
+      "latestYesPricePct": 50
+    },
+    {
+      "name": "BTC above $100k at 2026-11-20 12:00 UTC? (CoinGecko)",
+      "asset": "BTC",
+      "direction": "above",
+      "thresholdUsd": 100000,
+      "resolveAt": "2026-11-20T12:00:00.000Z",
+      "source": "CoinGecko BTC/USD",
+      "sourceUrl": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+      "tieRule": "Exactly equal to the threshold resolves NO.",
+      "marketId": 4556349035492,
+      "marketPda": "4i36zWqRgjCt7mfT3vRinKAYbAtgopmePoE6MwjseCBy",
+      "marketAppUrl": "https://pm-amm-devnet.vercel.app/market/4556349035492",
+      "explorerAccount": "https://solscan.io/account/4i36zWqRgjCt7mfT3vRinKAYbAtgopmePoE6MwjseCBy?cluster=devnet",
+      "createTxUrl": "https://solscan.io/tx/4CSZb6Tejd6gbroDT8ChTkNaWzGr9jKJMyYjAvPScf5Z6RSem7BXALVMyyFYZdRj25uJz4LFjWLUj41PbbpAByEv?cluster=devnet",
+      "swapTxUrl": "https://solscan.io/tx/5Kd4LdEHBwwcKxwataZrfPNv8ZJ2ybkXrCbjaMaG7p6KpLSv6ey8VBjSHmydSPz3m223Ms7Yb2mt5KY7LfDPrm2N?cluster=devnet",
+      "yesBought": "9.512127",
+      "yesPricePctAfterBuy": 53.02,
+      "creator": "B6mbz82NKSk6NEr1AFmjrGs46pS1SeTCx3JNDHxQb7b5",
+      "createdAt": "2026-11-13T15:05:13.352Z",
+      "displayStatus": "ENDED",
+      "resolution": null,
+      "resolutionNote": "Pending — resolves after 2026-11-20T12:00:00Z via send.resolveMarket (creator authority, M3).",
+      "snapshots": [
+        {
+          "at": "2026-11-13T15:10:47.093Z",
+          "yesPricePct": 53.02
+        }
+      ],
+      "latestYesPricePct": 53.02
+    },
+    {
+      "name": "BTC above $100k at 2026-11-20 12:00 UTC? (CoinGecko)",
+      "asset": "BTC",
+      "direction": "above",
+      "thresholdUsd": 100000,
+      "resolveAt": "2026-11-20T12:00:00.000Z",
+      "source": "CoinGecko BTC/USD",
+      "sourceUrl": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+      "tieRule": "Exactly equal to the threshold resolves NO.",
+      "marketId": 102498313784629,
+      "marketPda": "8hxkCjUgumeZr9dvmeL2xR2x8gzRtMqVDLFf6QBie2m5",
+      "marketAppUrl": "https://pm-amm-devnet.vercel.app/market/102498313784629",
+      "explorerAccount": "https://solscan.io/account/8hxkCjUgumeZr9dvmeL2xR2x8gzRtMqVDLFf6QBie2m5?cluster=devnet",
+      "createTxUrl": "https://solscan.io/tx/pjUhCT9u1jQw5D7MWZtnw4rzeVnX1E4abH5e1PpXe3zh8MMBSTmWnzWzM16VWDNr2L3Qt3TSWY8wVRHNve786qN?cluster=devnet",
+      "swapTxUrl": "https://solscan.io/tx/4R7rYHBjLgFqNByGW6qjc543iUyMp4fRF9GzJMmHZpU5aWJp9GKygPDAWuJWCgMPoSXGfDc835sshLHGMdmXqEdf?cluster=devnet",
+      "yesBought": "9.512127",
+      "yesPricePctAfterBuy": 53.02,
+      "creator": "B6mbz82NKSk6NEr1AFmjrGs46pS1SeTCx3JNDHxQb7b5",
+      "createdAt": "2026-11-13T15:04:30.097Z",
+      "displayStatus": "ENDED",
+      "resolution": null,
+      "resolutionNote": "Pending — resolves after 2026-11-20T12:00:00Z via send.resolveMarket (creator authority, M3).",
+      "snapshots": [
+        {
+          "at": "2026-11-13T15:10:47.093Z",
+          "yesPricePct": 53.02
+        }
+      ],
+      "latestYesPricePct": 53.02
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-11-13T15:10:47.093Z",
+      "signalId": "coingecko-bitcoin-2026-11-13T15:10:47.863Z",
+      "source": "CoinGecko",
+      "asset": "BTC",
+      "summary": "BTC $68,790 (-3.57% in 24h)",
+      "outcome": "created",
+      "reason": "BTC $68,790: -3.57% in 24h (≥3%) + 1.73% from round $70,000 → Will BTC close above $70,000 on 2026-11-15T12:00:00.000Z per CoinGecko BTC/USD? Tie (exactly equal) resolves NO. Source: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+      "marketPda": "4QW2qaFBfGpH345gjeQTzmRzojgCXTr4MagjV8ScShLW",
+      "marketId": 154474886100287,
+      "createTx": "2dH7nNkkyXitpEpDyWatcYS1uT1mmLQPzv5qiLVKWC5KJdziekVJxTcERcfWPwHXFnYoExCkKLnQymUFtMXbrEPt",
+      "question": "BTC above $70k at 2026-11-15 12:00 UTC? (CoinGecko)"
+    },
+    {
+      "at": "2026-11-13T15:10:47.093Z",
+      "signalId": "coingecko-ethereum-2026-11-13T15:10:47.863Z",
+      "source": "CoinGecko",
+      "asset": "ETH",
+      "summary": "ETH $1,942.16 (-2.88% in 24h)",
+      "outcome": "skipped",
+      "reason": "ETH $1,942.16 (-2.88% in 24h): move below 3% and 2.89% from nearest round $2,000 (needs ≤2%)"
+    },
+    {
+      "at": "2026-11-13T15:10:47.093Z",
+      "signalId": "coingecko-solana-2026-11-13T15:10:47.863Z",
+      "source": "CoinGecko",
+      "asset": "SOL",
+      "summary": "SOL $80.3 (-0.75% in 24h)",
+      "outcome": "skipped",
+      "reason": "worthy (SOL $80.3: 0.37% from round $80) but per-tick cap of 1 new market(s) reached — deferred to a later tick"
+    },
+    {
+      "at": "2026-11-13T15:10:47.093Z",
+      "signalId": "rss-cointelegraph-2026-11-13T15:10:49.001Z-5",
+      "source": "RSS: Cointelegraph",
+      "asset": "BTC",
+      "summary": "Bitcoin returns to 200-week trend line as analyst sees risk of $57.7K next",
+      "outcome": "skipped",
+      "reason": "BTC: no numeric price (context-only signal from RSS: Cointelegraph)"
+    },
+    {
+      "at": "2026-11-13T15:10:47.093Z",
+      "signalId": "rss-cointelegraph-2026-11-13T15:10:49.001Z-7",
+      "source": "RSS: Cointelegraph",
+      "asset": "BTC",
+      "summary": "Jane Street boosts Fidelity Bitcoin ETF holdings nearly 8x, trims IBIT",
+      "outcome": "skipped",
+      "reason": "BTC: no numeric price (context-only signal from RSS: Cointelegraph)"
+    },
+    {
+      "at": "2026-11-13T15:10:47.093Z",
+      "signalId": "rss-cointelegraph-2026-11-13T15:10:49.001Z-9",
+      "source": "RSS: Cointelegraph",
+      "asset": "BTC",
+      "summary": "Bitcoin slides below $70K amid thin liquidity, ETF outflows",
+      "outcome": "skipped",
+      "reason": "BTC: no numeric price (context-only signal from RSS: Cointelegraph)"
+    },
+    {
+      "at": "2026-11-13T15:10:47.093Z",
+      "signalId": "rss-cointelegraph-2026-11-13T15:10:49.001Z-16",
+      "source": "RSS: Cointelegraph",
+      "asset": "BTC",
+      "summary": "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off",
+      "outcome": "skipped",
+      "reason": "BTC: no numeric price (context-only signal from RSS: Cointelegraph)"
+    },
+    {
+      "at": "2026-11-13T15:10:47.093Z",
+      "signalId": "rss-cointelegraph-2026-11-13T15:10:49.001Z-18",
+      "source": "RSS: Cointelegraph",
+      "asset": "SOL",
+      "summary": "DTCC Plans Solana Expansion as Wallet Rules Limit Access",
+      "outcome": "skipped",
+      "reason": "SOL: no numeric price (context-only signal from RSS: Cointelegraph)"
+    }
+  ]
+}

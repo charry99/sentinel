@@ -1,0 +1,26 @@
+{
+  "name": "BTC above $100k at 2026-11-20 12:00 UTC? (CoinGecko)",
+  "criteria": {
+    "asset": "BTC",
+    "direction": "above",
+    "thresholdUsd": 100000,
+    "resolveAt": "2026-11-20T12:00:00.000Z",
+    "source": "CoinGecko BTC/USD",
+    "sourceUrl": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+    "tieRule": "Exactly equal to the threshold resolves NO."
+  },
+  "marketId": 4556349035492,
+  "marketPda": "4i36zWqRgjCt7mfT3vRinKAYbAtgopmePoE6MwjseCBy",
+  "marketAppUrl": "https://pm-amm-devnet.vercel.app/market/4556349035492",
+  "explorerAccount": "https://solscan.io/account/4i36zWqRgjCt7mfT3vRinKAYbAtgopmePoE6MwjseCBy?cluster=devnet",
+  "createTx": "4CSZb6Tejd6gbroDT8ChTkNaWzGr9jKJMyYjAvPScf5Z6RSem7BXALVMyyFYZdRj25uJz4LFjWLUj41PbbpAByEv",
+  "createTxUrl": "https://solscan.io/tx/4CSZb6Tejd6gbroDT8ChTkNaWzGr9jKJMyYjAvPScf5Z6RSem7BXALVMyyFYZdRj25uJz4LFjWLUj41PbbpAByEv?cluster=devnet",
+  "swapTx": "5Kd4LdEHBwwcKxwataZrfPNv8ZJ2ybkXrCbjaMaG7p6KpLSv6ey8VBjSHmydSPz3m223Ms7Yb2mt5KY7LfDPrm2N",
+  "swapTxUrl": "https://solscan.io/tx/5Kd4LdEHBwwcKxwataZrfPNv8ZJ2ybkXrCbjaMaG7p6KpLSv6ey8VBjSHmydSPz3m223Ms7Yb2mt5KY7LfDPrm2N?cluster=devnet",
+  "yesBought": "9.512127",
+  "yesPricePctAfterBuy": 53.02,
+  "creator": "B6mbz82NKSk6NEr1AFmjrGs46pS1SeTCx3JNDHxQb7b5",
+  "createdAt": "2026-11-13T15:05:13.352Z",
+  "status": "LIVE",
+  "resolution": "Pending — resolves after 2026-11-20T12:00:00Z via send.resolveMarket (creator authority, M3)."
+}

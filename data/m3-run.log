@@ -1,0 +1,35 @@
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+wallet  B6mbz82NKSk6NEr1AFmjrGs46pS1SeTCx3JNDHxQb7b5 (keypair: /home/hatch/.config/sentinel/devnet-wallet.json)
+network devnet only — mock USDC, no real funds
+market  "BTC above $68k at 2026-11-13 15:35 UTC? (CoinGecko)" (threshold $68000, resolves 2026-11-13T15:35:00.000Z)
+balance before: 0.0879 SOL · 840.1 mUSDC
+balance funded: 0.088 SOL · 840.1 mUSDC
+creating market (duration 839s, deposit 50 mUSDC)…
+market  BG7zUsKyt11EoKyKogeh9Tntwo8TXD7UYsa2R9Swu1ew (id 133405243500474)
+create tx GefUfvQwHHPJWF5MoSCosrvAW9qGSSgkfKXNgbtnB3MM6fWPg1zCha12U7r7yHrKuRCT2pUm5b4GzNjdUzz3JQs
+  https://solscan.io/tx/GefUfvQwHHPJWF5MoSCosrvAW9qGSSgkfKXNgbtnB3MM6fWPg1zCha12U7r7yHrKuRCT2pUm5b4GzNjdUzz3JQs?cluster=devnet
+open it: https://pm-amm-devnet.vercel.app/market/133405243500474
+on-chain endTs: 2026-11-13T15:34:59.000Z (nominal 2026-11-13T15:35:00.000Z)
+YES price before buy: 50.00%
+swap tx 3h51b4AWBKmMTCV1TczBiTcgoa7R2LG6md4fFp9BdxCWT1yHMfkgVjhQdipd6zvQyACa3tTAByUzjyqKwkKZgKeD (bought ~9.511315 YES for 5 mUSDC)
+  https://solscan.io/tx/3h51b4AWBKmMTCV1TczBiTcgoa7R2LG6md4fFp9BdxCWT1yHMfkgVjhQdipd6zvQyACa3tTAByUzjyqKwkKZgKeD?cluster=devnet
+YES held: 9.510989 · YES price now: 53.04%
+record saved to data/m3-market.json + data/track-record.json
+waiting for expiry (on-chain endTs 2026-11-13T15:34:59.000Z)…
+expired at 2026-11-13T15:35:07.027Z (secondsLeft 0)
+fetching resolution source: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd
+proof bundle published to /home/hatch/workspace/goals/solana-perps-hackathon/repo/data/resolution-proof-133405243500474.json BEFORE the on-chain call:
+  fetched BTC $68389 at 2026-11-13T15:35:18.664Z (threshold $68000) => outcome YES
+resolving market YES…
+resolve tx EaV34VDffk8XAqTJBooTf74rmAXqP6GEsD25vxKTGYwVZUfCga6piRhoZHwLth7wW5DasxJmYFkEmh2Y9tRgpVY
+  https://solscan.io/tx/EaV34VDffk8XAqTJBooTf74rmAXqP6GEsD25vxKTGYwVZUfCga6piRhoZHwLth7wW5DasxJmYFkEmh2Y9tRgpVY?cluster=devnet
+verified on-chain: resolved=true, winningSide=YES
+accrue tx 5ooyNBVpcZ8ppPecweeEJVrVmCf4G8KXhLBuXrvcgSvknF49gf2Jqqj2YBWso6hwVrnp9bKDM6w7gxWCT3zrFdMB
+claim LP residuals tx AJC7X786Cmapf2xuym563v8ZH5j82XEtukmepe3UuCN8YamjSv11pMH3XPgrLA5GFuZCKqwWpMBuG1HjFqGCjz9
+tokens held after resolve: YES 54.899998 · NO 54.899999
+claim winnings tx 3ynC4uKkW4As1wvQBR7zcbYP4UHsWKEyqutPZqTKxWQwD973NvfBSr6CtDUfGgEPMo8xM5L36yq1A4FVNn2AUnn (54.899998 winning tokens)
+balance after: 0.0525 SOL · 840.049998 mUSDC
+P/L: spent 55 mUSDC (deposit 50 + buy 5), recovered 54.949998 mUSDC, net -0.050002 mUSDC
+
+M3 full cycle complete — see data/m3-proof.json
+market:  https://solscan.io/account/BG7zUsKyt11EoKyKogeh9Tntwo8TXD7UYsa2R9Swu1ew?cluster=devnet

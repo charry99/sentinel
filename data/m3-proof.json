@@ -1,0 +1,27 @@
+{
+  "market": "BTC above $68k at 2026-11-13 15:35 UTC? (CoinGecko)",
+  "marketId": 133405243500474,
+  "marketPda": "BG7zUsKyt11EoKyKogeh9Tntwo8TXD7UYsa2R9Swu1ew",
+  "marketAppUrl": "https://pm-amm-devnet.vercel.app/market/133405243500474",
+  "createTx": "GefUfvQwHHPJWF5MoSCosrvAW9qGSSgkfKXNgbtnB3MM6fWPg1zCha12U7r7yHrKuRCT2pUm5b4GzNjdUzz3JQs",
+  "swapTx": "3h51b4AWBKmMTCV1TczBiTcgoa7R2LG6md4fFp9BdxCWT1yHMfkgVjhQdipd6zvQyACa3tTAByUzjyqKwkKZgKeD",
+  "resolveTx": "EaV34VDffk8XAqTJBooTf74rmAXqP6GEsD25vxKTGYwVZUfCga6piRhoZHwLth7wW5DasxJmYFkEmh2Y9tRgpVY",
+  "settle": {
+    "accrueTx": "5ooyNBVpcZ8ppPecweeEJVrVmCf4G8KXhLBuXrvcgSvknF49gf2Jqqj2YBWso6hwVrnp9bKDM6w7gxWCT3zrFdMB",
+    "claimLpResidualsTx": "AJC7X786Cmapf2xuym563v8ZH5j82XEtukmepe3UuCN8YamjSv11pMH3XPgrLA5GFuZCKqwWpMBuG1HjFqGCjz9",
+    "claimWinningsTx": "3ynC4uKkW4As1wvQBR7zcbYP4UHsWKEyqutPZqTKxWQwD973NvfBSr6CtDUfGgEPMo8xM5L36yq1A4FVNn2AUnn",
+    "claimWinningsNote": null
+  },
+  "outcome": "yes",
+  "fetchedValue": 68389,
+  "fetchedAt": "2026-11-13T15:35:18.664Z",
+  "proofPath": "data/resolution-proof-133405243500474.json",
+  "solBefore": 0.08788976,
+  "usdcBefore": 840.1,
+  "solAfter": 0.0524826,
+  "usdcAfter": 840.049998,
+  "spentUsdc": 55,
+  "recoveredUsdc": 54.949998,
+  "netUsdc": -0.050002,
+  "completedAt": "2026-11-13T15:35:57.794Z"
+}

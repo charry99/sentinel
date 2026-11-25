@@ -1,0 +1,18 @@
+{
+  "marketQuestion": "BTC above $68000 at 2026-11-13T15:35:00.000Z?",
+  "asset": "BTC",
+  "thresholdUsd": 68000,
+  "fetchedValue": 68389,
+  "source": "CoinGecko BTC/USD",
+  "sourceUrl": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+  "fetchedAt": "2026-11-13T15:35:18.664Z",
+  "resolveAt": "2026-11-13T15:35:00.000Z",
+  "outcome": "yes",
+  "tieRule": "Exactly equal to the threshold resolves NO.",
+  "rawResponse": {
+    "bitcoin": {
+      "usd": 68389,
+      "usd_24h_change": -4.116066321048581
+    }
+  }
+}
