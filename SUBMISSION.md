@@ -73,7 +73,7 @@ from the program ID, SDK calls and on-chain transactions above).
 
 | Field | Value |
 |---|---|
-| Public repo | https://github.com/charry99/sentinel — **not created yet (owner step)** |
+| Public repo | https://github.com/charry99/sentinel — **live, created + pushed Nov 25, 2026 (commit 8579423c, 41 files, branch main)** |
 | Demo video (≤3 min) | *paste URL after upload (owner step)* |
 | Dashboard | GitHub Pages URL after the repo exists (the `dashboard/` folder), or the repo path `dashboard/index.html` |
 | Live judge market | pm-AMM reference-app URL of the market created for the judging window (see checklist) |
@@ -84,8 +84,10 @@ from the program ID, SDK calls and on-chain transactions above).
 Owner-only steps are marked 👤 — they need the user's hands or explicit
 word. Everything else is prepared in this repo.
 
-- [ ] 👤 Create the public GitHub repo `charry99/sentinel` (browser
-      step; check the name for collisions first) and push `repo/`.
+- [x] Create the public GitHub repo `charry99/sentinel` and push `repo/`
+      — DONE Nov 25, 2026: repo created empty in browser (signed in as
+      charry99, SMS 2FA), then 41 files pushed via GitHub connector,
+      commit 8579423c on main (plus provider initial commit 78083786).
 - [ ] 👤 Record the demo video from `docs/DEMO-SCRIPT.md` (≤3 min),
       upload it, and paste the URL into the Links table above.
 - [ ] Re-run the full suite on the pushed commit: `npm test`
