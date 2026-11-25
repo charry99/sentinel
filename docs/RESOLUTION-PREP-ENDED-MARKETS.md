@@ -66,3 +66,12 @@ not trustless" claim the submission makes.
    call, exactly as M3 did, then resolve with the proof-first script.
 3. No on-chain resolve, no repo push, and no submission from this file
    without the user's explicit go-ahead naming the market(s).
+
+## RESOLVED — Nov 25, 2026 ~13:30 IST (update)
+User picked option 1 in Main chat: resolve all three NO on-chain, citing
+CoinGecko + Kraken. Verdict file: sentinel-resolution-verdict-2026-11-25.md.
+Dry run previewed first (no txs sent), then live run via src/resolveEnded.ts:
+- #1 (102498313784629): resolve tx 7MKoYHzw9Kh5P9RZRZMtbB6vLKzcL3Gv8jPaMoZs32r61L1AFqKbd2rJ4FnYD5j5jz3YRgYaKoiSX8jvQwgQbQ8 — verified resolved/winner NO; accrue 5pnwAKQP…, LP residuals 2198kxxC…, winnings 4dhM1ZUK… (54.899999 NO tokens)
+- #2 (4556349035492): resolve tx 2MptRvQKyvjrVXWakh3fLTMuwT8EQuaW7wXsa7t9AAPDBcME3DF4UwcziRdXHXxrVrPWdtqfC3aMeVxyu3UC3pvJ — verified NO; accrue 3dCCicG6…, residuals 3PWcGcf6…, winnings 2b5LADcc… (54.899999 NO tokens)
+- #3 (154474886100287): resolve tx 2gLsD1HGLDj1TEfQFVRNdZxqQNggV5YZzhgHJbRcQnqp2qm2z5wvMWgWFNoEtc2u2f9YVbV115qj48KVR5jLPjAw — verified NO; accrue 5T8E6BdB…, residuals 29eHSgm3…, winnings 4g5UaZnv… (50 NO tokens)
+Balances: SOL 0.0525 → 0.0584; mUSDC 840.05 → 999.85 (+159.8 recovered). Tests 50 pass after. Dashboard: 4 resolved, 0 awaiting resolution.

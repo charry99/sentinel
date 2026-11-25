@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-23T22:25:12.672Z",
+  "generatedAt": "2026-11-25T07:59:09.340Z",
   "network": "devnet",
   "programId": "GV1FMGHRYBjQLaghE5fnGuYCuCcpdt3GD5xEX3TwN16y",
   "usdcMint": "3WQ8hCqTNwjrh8WzE2XyoZoUrd1miPcwWfMkmFPUMEWZ",
   "referenceApp": "https://pm-amm-devnet.vercel.app",
   "stats": {
     "marketsCreated": 4,
-    "resolved": 1,
+    "resolved": 4,
     "live": 0,
-    "endedAwaitingResolution": 3,
+    "endedAwaitingResolution": 0,
     "decisionsLogged": 8,
     "decisionsCreated": 1,
     "decisionsSkipped": 7,
@@ -93,9 +93,64 @@
       "yesPricePctAfterBuy": 50,
       "creator": "B6mbz82NKSk6NEr1AFmjrGs46pS1SeTCx3JNDHxQb7b5",
       "createdAt": "2026-11-13T15:10:47.093Z",
-      "displayStatus": "ENDED",
-      "resolution": null,
-      "resolutionNote": "Pending — resolves after 2026-11-15T12:00:00.000Z via send.resolveMarket (creator authority, M3).",
+      "displayStatus": "RESOLVED",
+      "resolution": {
+        "outcome": "no",
+        "fetchedValue": 65345.31730237392,
+        "fetchedAt": "2026-11-15T12:00:00.000Z",
+        "source": "CoinGecko BTC/USD (range endpoint, historical reconstruction)",
+        "resolveTxUrl": "https://solscan.io/tx/2gLsD1HGLDj1TEfQFVRNdZxqQNggV5YZzhgHJbRcQnqp2qm2z5wvMWgWFNoEtc2u2f9YVbV115qj48KVR5jLPjAw?cluster=devnet",
+        "settleTxs": [
+          {
+            "label": "Accrue interest",
+            "url": "https://solscan.io/tx/5T8E6BdBgNYNxRQ94xs1oYR5o2BknF1o5msJJWoQSBN4s81xX7z8Fo7719XhjH8eVjkkgnkprFavjQjvnUYziF7b?cluster=devnet"
+          },
+          {
+            "label": "Claim LP residuals",
+            "url": "https://solscan.io/tx/29eHSgm3z5Z2mdX1xaQii48tYcK8tucbRrZxgzgiBDWGYMLzBYx4zMWipmqcZrtT2wFWnRueJvmARRv9dDHvwMiv?cluster=devnet"
+          },
+          {
+            "label": "Claim winnings",
+            "url": "https://solscan.io/tx/4g5UaZnvsstC9hCPxhAB4ojt8QuDZ64awgwgrcHSUTmRh4oEj1EyhwvM5KQ4J2hK4beQWyAHLnK2MiKzxPq8ykk8?cluster=devnet"
+          }
+        ],
+        "spentUsdc": null,
+        "recoveredUsdc": null,
+        "netUsdc": null,
+        "resolvedAt": "2026-11-25T07:58:55.073Z",
+        "proofFile": "resolution-proof-154474886100287.json",
+        "proofRawResponse": {
+          "note": "Historical reconstruction (resolution window passed Nov 15/20; live fetch at resolution time was not possible). CoinGecko range is the named source; Kraken OHLC is an independent cross-check. Yahoo Finance hourly figure ($95,720 for Nov 15 12:00) explicitly NOT used — rejected in the verdict file: it contradicts both CoinGecko and Kraken.",
+          "coingecko_range_url": "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1794740400&to=1794747600",
+          "coingecko_prices_window": [
+            [
+              1794740400000,
+              65548.55905232039
+            ],
+            [
+              1794744000000,
+              65345.31730237392
+            ],
+            [
+              1794747600000,
+              65466.694691479905
+            ]
+          ],
+          "kraken_ohlc_url": "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=60&since=1794740400",
+          "kraken_12h00_candle": {
+            "time": 1794744000,
+            "open": "65322.8",
+            "high": "65534.6",
+            "low": "65163.7",
+            "close": "65474.3"
+          },
+          "reconstructedAt": "2026-11-25T07:58:23.458Z",
+          "verdictFile": "sentinel-resolution-verdict-2026-11-25.md"
+        },
+        "parsed": true,
+        "raw": null
+      },
+      "resolutionNote": null,
       "snapshots": [
         {
           "at": "2026-11-13T15:10:47.093Z",
@@ -123,9 +178,64 @@
       "yesPricePctAfterBuy": 53.02,
       "creator": "B6mbz82NKSk6NEr1AFmjrGs46pS1SeTCx3JNDHxQb7b5",
       "createdAt": "2026-11-13T15:05:13.352Z",
-      "displayStatus": "ENDED",
-      "resolution": null,
-      "resolutionNote": "Pending — resolves after 2026-11-20T12:00:00Z via send.resolveMarket (creator authority, M3).",
+      "displayStatus": "RESOLVED",
+      "resolution": {
+        "outcome": "no",
+        "fetchedValue": 61749.56260692069,
+        "fetchedAt": "2026-11-20T12:00:00.000Z",
+        "source": "CoinGecko BTC/USD (range endpoint, historical reconstruction)",
+        "resolveTxUrl": "https://solscan.io/tx/2MptRvQKyvjrVXWakh3fLTMuwT8EQuaW7wXsa7t9AAPDBcME3DF4UwcziRdXHXxrVrPWdtqfC3aMeVxyu3UC3pvJ?cluster=devnet",
+        "settleTxs": [
+          {
+            "label": "Accrue interest",
+            "url": "https://solscan.io/tx/3dCCicG6AFBiSeBazbVtESSvaNckVu9Hk2LYA3SiroCUhc8tCgyxNstGePwgJW8cNH5cDXUBCZB2ZNQ6Cvzssaqu?cluster=devnet"
+          },
+          {
+            "label": "Claim LP residuals",
+            "url": "https://solscan.io/tx/3PWcGcf6HbNLp86Xpk23ivXNhxYHL8tX9EbdBMKFimfnGKtiJkzeAQ9Fos4c96Yc9EeNTteWs1Tn2Ku4W3E7N824?cluster=devnet"
+          },
+          {
+            "label": "Claim winnings",
+            "url": "https://solscan.io/tx/2b5LADcciCjcVdBpW4bYvX8biKS1D458gq9KFqQaoyUiBskVhgf1UZXUk5QtqcG9ieXPNoZ2NPuKXkWw3uR7s5BB?cluster=devnet"
+          }
+        ],
+        "spentUsdc": null,
+        "recoveredUsdc": null,
+        "netUsdc": null,
+        "resolvedAt": "2026-11-25T07:58:21.149Z",
+        "proofFile": "resolution-proof-4556349035492.json",
+        "proofRawResponse": {
+          "note": "Historical reconstruction (resolution window passed Nov 15/20; live fetch at resolution time was not possible). CoinGecko range is the named source; Kraken OHLC is an independent cross-check. Yahoo Finance hourly figure ($95,720 for Nov 15 12:00) explicitly NOT used — rejected in the verdict file: it contradicts both CoinGecko and Kraken.",
+          "coingecko_range_url": "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1795172400&to=1795179600",
+          "coingecko_prices_window": [
+            [
+              1795172400000,
+              61997.96895678548
+            ],
+            [
+              1795176000000,
+              61749.56260692069
+            ],
+            [
+              1795179600000,
+              61520.21427602159
+            ]
+          ],
+          "kraken_ohlc_url": "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=60&since=1795172400",
+          "kraken_12h00_candle": {
+            "time": 1795176000,
+            "open": "61744.7",
+            "high": "61779.9",
+            "low": "61175.8",
+            "close": "61499.4"
+          },
+          "reconstructedAt": "2026-11-25T07:57:50.245Z",
+          "verdictFile": "sentinel-resolution-verdict-2026-11-25.md"
+        },
+        "parsed": true,
+        "raw": null
+      },
+      "resolutionNote": null,
       "snapshots": [
         {
           "at": "2026-11-13T15:10:47.093Z",
@@ -153,9 +263,64 @@
       "yesPricePctAfterBuy": 53.02,
       "creator": "B6mbz82NKSk6NEr1AFmjrGs46pS1SeTCx3JNDHxQb7b5",
       "createdAt": "2026-11-13T15:04:30.097Z",
-      "displayStatus": "ENDED",
-      "resolution": null,
-      "resolutionNote": "Pending — resolves after 2026-11-20T12:00:00Z via send.resolveMarket (creator authority, M3).",
+      "displayStatus": "RESOLVED",
+      "resolution": {
+        "outcome": "no",
+        "fetchedValue": 61749.56260692069,
+        "fetchedAt": "2026-11-20T12:00:00.000Z",
+        "source": "CoinGecko BTC/USD (range endpoint, historical reconstruction)",
+        "resolveTxUrl": "https://solscan.io/tx/7MKoYHzw9Kh5P9RZRZMtbB6vLKzcL3Gv8jPaMoZs32r61L1AFqKbd2rJ4FnYD5j5jz3YRgYaKoiSX8jvQwgQbQ8?cluster=devnet",
+        "settleTxs": [
+          {
+            "label": "Accrue interest",
+            "url": "https://solscan.io/tx/5pnwAKQPZ7jt2SVq4jGYZT3GNkj6M4pFHdPv5XVFijpbf7MRa4VjKGw5Xcv9bqy9hHWGbKf91EWWVntnk75972c9?cluster=devnet"
+          },
+          {
+            "label": "Claim LP residuals",
+            "url": "https://solscan.io/tx/2198kxxCSE7LcqTSx4rQbE4DCL2FphULbSD6D3bWgHkZkaX8hPhA6QQhCTEKH9enrjGcFsoCDik5wccbQJMouxv3?cluster=devnet"
+          },
+          {
+            "label": "Claim winnings",
+            "url": "https://solscan.io/tx/4dhM1ZUKZc4uRme7YthEdTmXq1rFFB7dYcGCd19jKPJEMqS4Hy6KsHDWwahFMabFiBszmzVAWdghGH4KgG5znvAk?cluster=devnet"
+          }
+        ],
+        "spentUsdc": null,
+        "recoveredUsdc": null,
+        "netUsdc": null,
+        "resolvedAt": "2026-11-25T07:57:47.803Z",
+        "proofFile": "resolution-proof-102498313784629.json",
+        "proofRawResponse": {
+          "note": "Historical reconstruction (resolution window passed Nov 15/20; live fetch at resolution time was not possible). CoinGecko range is the named source; Kraken OHLC is an independent cross-check. Yahoo Finance hourly figure ($95,720 for Nov 15 12:00) explicitly NOT used — rejected in the verdict file: it contradicts both CoinGecko and Kraken.",
+          "coingecko_range_url": "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1795172400&to=1795179600",
+          "coingecko_prices_window": [
+            [
+              1795172400000,
+              61997.96895678548
+            ],
+            [
+              1795176000000,
+              61749.56260692069
+            ],
+            [
+              1795179600000,
+              61520.21427602159
+            ]
+          ],
+          "kraken_ohlc_url": "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=60&since=1795172400",
+          "kraken_12h00_candle": {
+            "time": 1795176000,
+            "open": "61744.7",
+            "high": "61779.9",
+            "low": "61175.8",
+            "close": "61499.4"
+          },
+          "reconstructedAt": "2026-11-25T07:57:17.154Z",
+          "verdictFile": "sentinel-resolution-verdict-2026-11-25.md"
+        },
+        "parsed": true,
+        "raw": null
+      },
+      "resolutionNote": null,
       "snapshots": [
         {
           "at": "2026-11-13T15:10:47.093Z",

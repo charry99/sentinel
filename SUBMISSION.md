@@ -60,9 +60,12 @@ call, and a track record that keeps the losses.
 Devnet only, no real users or real-money volume yet, binary markets
 only, resolution authority is the creator (auditable, not trustless),
 signals are price-based (X sentiment is a documented future adapter,
-not v1). Three early markets ended before the agent was run again to
-resolve them; the dashboard labels them "ended — awaiting resolution"
-rather than hiding them.
+not v1). The three early markets that ended Nov 15 + Nov 20 were
+resolved late on Nov 25, all NO, with proof bundles citing CoinGecko
+range + Kraken OHLC (the Yahoo $95,720 figure was rejected — it
+contradicted both sources); the dashboard now shows 4 resolved, 0
+awaiting resolution. Late resolution is disclosed in the proof bundles
+as a historical reconstruction, not a live fetch at resolution time.
 
 **Track / bounty fit:** Main track (a working product that *uses* a
 prediction market rather than just building one) + the pm-AMM bounty
@@ -96,10 +99,11 @@ word. Everything else is prepared in this repo.
 - [ ] Create 1–2 fresh live markets for judges to trade during the
       judging window (`npm run demo` and/or one `npm run agent:once`
       tick), then regenerate the dashboard so they appear as LIVE.
-- [ ] Optional but strengthening: resolve the 3 ended markets
-      (Nov 15 + Nov 20) with proof bundles, so the record shows them
-      settled instead of awaiting resolution. On-chain agent action —
-      👤 needs the user's go-ahead.
+- [x] Optional but strengthening: resolve the 3 ended markets
+      (Nov 15 + Nov 20) with proof bundles — DONE Nov 25, 2026: all
+      three resolved NO on-chain (resolve txs 7MKoYHzw…, 2MptRvQK…,
+      2gLsD1HG…), settled, proof bundles in data/resolution-proof-*.json,
+      dashboard 4 resolved / 0 awaiting. Script: src/resolveEnded.ts.
 - [ ] 👤 Submit the form with the fields above **by Dec 4** (≥24h
       before the Dec 5 deadline).
 - [ ] After submission: keep the judge markets' snapshots updating

@@ -1,0 +1,40 @@
+{
+  "marketQuestion": "BTC above $100000 at 2026-11-20T12:00:00.000Z?",
+  "asset": "BTC",
+  "thresholdUsd": 100000,
+  "fetchedValue": 61749.56260692069,
+  "source": "CoinGecko BTC/USD (range endpoint, historical reconstruction)",
+  "sourceUrl": "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1795172400&to=1795179600",
+  "fetchedAt": "2026-11-20T12:00:00.000Z",
+  "resolveAt": "2026-11-20T12:00:00.000Z",
+  "outcome": "no",
+  "tieRule": "Exactly equal to the threshold resolves NO.",
+  "rawResponse": {
+    "note": "Historical reconstruction (resolution window passed Nov 15/20; live fetch at resolution time was not possible). CoinGecko range is the named source; Kraken OHLC is an independent cross-check. Yahoo Finance hourly figure ($95,720 for Nov 15 12:00) explicitly NOT used — rejected in the verdict file: it contradicts both CoinGecko and Kraken.",
+    "coingecko_range_url": "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1795172400&to=1795179600",
+    "coingecko_prices_window": [
+      [
+        1795172400000,
+        61997.96895678548
+      ],
+      [
+        1795176000000,
+        61749.56260692069
+      ],
+      [
+        1795179600000,
+        61520.21427602159
+      ]
+    ],
+    "kraken_ohlc_url": "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=60&since=1795172400",
+    "kraken_12h00_candle": {
+      "time": 1795176000,
+      "open": "61744.7",
+      "high": "61779.9",
+      "low": "61175.8",
+      "close": "61499.4"
+    },
+    "reconstructedAt": "2026-11-25T07:57:17.154Z",
+    "verdictFile": "sentinel-resolution-verdict-2026-11-25.md"
+  }
+}

@@ -22,8 +22,8 @@
     "yesPricePctAfterBuy": 53.02,
     "creator": "B6mbz82NKSk6NEr1AFmjrGs46pS1SeTCx3JNDHxQb7b5",
     "createdAt": "2026-11-13T15:04:30.097Z",
-    "status": "LIVE",
-    "resolution": "Pending — resolves after 2026-11-20T12:00:00Z via send.resolveMarket (creator authority, M3)."
+    "status": "RESOLVED",
+    "resolution": "{\"outcome\":\"no\",\"fetchedValue\":61749.56260692069,\"krakenClose\":61499.4,\"fetchedAt\":\"2026-11-20T12:00:00.000Z\",\"source\":\"CoinGecko BTC/USD (range endpoint, historical reconstruction)\",\"sourceUrl\":\"https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1795172400&to=1795179600\",\"krakenUrl\":\"https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=60&since=1795172400\",\"tieRule\":\"Exactly equal to the threshold resolves NO.\",\"proofPath\":\"data/resolution-proof-102498313784629.json\",\"resolveTx\":\"7MKoYHzw9Kh5P9RZRZMtbB6vLKzcL3Gv8jPaMoZs32r61L1AFqKbd2rJ4FnYD5j5jz3YRgYaKoiSX8jvQwgQbQ8\",\"resolveTxUrl\":\"https://solscan.io/tx/7MKoYHzw9Kh5P9RZRZMtbB6vLKzcL3Gv8jPaMoZs32r61L1AFqKbd2rJ4FnYD5j5jz3YRgYaKoiSX8jvQwgQbQ8?cluster=devnet\",\"accrueTx\":\"5pnwAKQPZ7jt2SVq4jGYZT3GNkj6M4pFHdPv5XVFijpbf7MRa4VjKGw5Xcv9bqy9hHWGbKf91EWWVntnk75972c9\",\"claimLpResidualsTx\":\"2198kxxCSE7LcqTSx4rQbE4DCL2FphULbSD6D3bWgHkZkaX8hPhA6QQhCTEKH9enrjGcFsoCDik5wccbQJMouxv3\",\"claimWinningsTx\":\"4dhM1ZUKZc4uRme7YthEdTmXq1rFFB7dYcGCd19jKPJEMqS4Hy6KsHDWwahFMabFiBszmzVAWdghGH4KgG5znvAk\",\"claimWinningsNote\":null,\"resolvedAt\":\"2026-11-25T07:57:47.803Z\"}"
   },
   {
     "name": "BTC above $100k at 2026-11-20 12:00 UTC? (CoinGecko)",
@@ -48,8 +48,8 @@
     "yesPricePctAfterBuy": 53.02,
     "creator": "B6mbz82NKSk6NEr1AFmjrGs46pS1SeTCx3JNDHxQb7b5",
     "createdAt": "2026-11-13T15:05:13.352Z",
-    "status": "LIVE",
-    "resolution": "Pending — resolves after 2026-11-20T12:00:00Z via send.resolveMarket (creator authority, M3)."
+    "status": "RESOLVED",
+    "resolution": "{\"outcome\":\"no\",\"fetchedValue\":61749.56260692069,\"krakenClose\":61499.4,\"fetchedAt\":\"2026-11-20T12:00:00.000Z\",\"source\":\"CoinGecko BTC/USD (range endpoint, historical reconstruction)\",\"sourceUrl\":\"https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1795172400&to=1795179600\",\"krakenUrl\":\"https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=60&since=1795172400\",\"tieRule\":\"Exactly equal to the threshold resolves NO.\",\"proofPath\":\"data/resolution-proof-4556349035492.json\",\"resolveTx\":\"2MptRvQKyvjrVXWakh3fLTMuwT8EQuaW7wXsa7t9AAPDBcME3DF4UwcziRdXHXxrVrPWdtqfC3aMeVxyu3UC3pvJ\",\"resolveTxUrl\":\"https://solscan.io/tx/2MptRvQKyvjrVXWakh3fLTMuwT8EQuaW7wXsa7t9AAPDBcME3DF4UwcziRdXHXxrVrPWdtqfC3aMeVxyu3UC3pvJ?cluster=devnet\",\"accrueTx\":\"3dCCicG6AFBiSeBazbVtESSvaNckVu9Hk2LYA3SiroCUhc8tCgyxNstGePwgJW8cNH5cDXUBCZB2ZNQ6Cvzssaqu\",\"claimLpResidualsTx\":\"3PWcGcf6HbNLp86Xpk23ivXNhxYHL8tX9EbdBMKFimfnGKtiJkzeAQ9Fos4c96Yc9EeNTteWs1Tn2Ku4W3E7N824\",\"claimWinningsTx\":\"2b5LADcciCjcVdBpW4bYvX8biKS1D458gq9KFqQaoyUiBskVhgf1UZXUk5QtqcG9ieXPNoZ2NPuKXkWw3uR7s5BB\",\"claimWinningsNote\":null,\"resolvedAt\":\"2026-11-25T07:58:21.149Z\"}"
   },
   {
     "name": "BTC above $70k at 2026-11-15 12:00 UTC? (CoinGecko)",
@@ -74,8 +74,8 @@
     "yesPricePctAfterBuy": 50,
     "creator": "B6mbz82NKSk6NEr1AFmjrGs46pS1SeTCx3JNDHxQb7b5",
     "createdAt": "2026-11-13T15:10:47.093Z",
-    "status": "LIVE",
-    "resolution": "Pending — resolves after 2026-11-15T12:00:00.000Z via send.resolveMarket (creator authority, M3)."
+    "status": "RESOLVED",
+    "resolution": "{\"outcome\":\"no\",\"fetchedValue\":65345.31730237392,\"krakenClose\":65474.3,\"fetchedAt\":\"2026-11-15T12:00:00.000Z\",\"source\":\"CoinGecko BTC/USD (range endpoint, historical reconstruction)\",\"sourceUrl\":\"https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1794740400&to=1794747600\",\"krakenUrl\":\"https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=60&since=1794740400\",\"tieRule\":\"Exactly equal to the threshold resolves NO.\",\"proofPath\":\"data/resolution-proof-154474886100287.json\",\"resolveTx\":\"2gLsD1HGLDj1TEfQFVRNdZxqQNggV5YZzhgHJbRcQnqp2qm2z5wvMWgWFNoEtc2u2f9YVbV115qj48KVR5jLPjAw\",\"resolveTxUrl\":\"https://solscan.io/tx/2gLsD1HGLDj1TEfQFVRNdZxqQNggV5YZzhgHJbRcQnqp2qm2z5wvMWgWFNoEtc2u2f9YVbV115qj48KVR5jLPjAw?cluster=devnet\",\"accrueTx\":\"5T8E6BdBgNYNxRQ94xs1oYR5o2BknF1o5msJJWoQSBN4s81xX7z8Fo7719XhjH8eVjkkgnkprFavjQjvnUYziF7b\",\"claimLpResidualsTx\":\"29eHSgm3z5Z2mdX1xaQii48tYcK8tucbRrZxgzgiBDWGYMLzBYx4zMWipmqcZrtT2wFWnRueJvmARRv9dDHvwMiv\",\"claimWinningsTx\":\"4g5UaZnvsstC9hCPxhAB4ojt8QuDZ64awgwgrcHSUTmRh4oEj1EyhwvM5KQ4J2hK4beQWyAHLnK2MiKzxPq8ykk8\",\"claimWinningsNote\":null,\"resolvedAt\":\"2026-11-25T07:58:55.073Z\"}"
   },
   {
     "name": "BTC above $68k at 2026-11-13 15:35 UTC? (CoinGecko)",
